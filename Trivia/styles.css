@@ -1,0 +1,73 @@
+*{    /* AJUSTES GENERALES DE TODA LA PAGINA */
+    margin: 30;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* LE COLOQUE UN COLOR TEMPORAL AL FONDO DE LA PAGINA */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #652ebf;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+#game {
+    display: flex;
+}
+
+.genre-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+    height: 140px;
+    border-radius: 20px;
+    background-color: #4e4eac;
+    border: solid yellow 5px;
+    text-align: center;
+    padding: auto;
+    margin: 5px;
+    font-size: 100px;
+}
+
+.correct-answer {
+    background-color: #1fe018;
+    transition-duration: 1s;
+}
+
+.wrong-answer {
+    background-color: #c73b1e;
+    transition-duration: 1s;
+}
+
+.true-button {
+    background-color: #63b36e;
+}
+
+.false-button {
+    background-color: #aa231e;
+}
+
+button {
+    margin: 5px;
+}
+
+.level-image {
+    width: 100px; /* Ajusta el tamaño según necesites */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
